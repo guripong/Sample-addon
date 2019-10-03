@@ -70,7 +70,7 @@
     "v8_typed_array_max_size_in_heap": 0,
     "v8_use_snapshot": "true",
     "want_separate_host_toolset": 0,
-    "nodedir": "C:\\Users\\BNRI\\AppData\\Local\\node-gyp\\Cache\\10.16.3",
+    "nodedir": "C:\\Users\\gurip\\AppData\\Local\\node-gyp\\Cache\\10.16.3",
     "standalone_static_library": 1,
     "msbuild_path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\MSBuild\\15.0\\Bin\\MSBuild.exe"
   }

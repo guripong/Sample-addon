@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{431D3ACC-53DB-1592-E8A0-B1A9FA2E64C3}</ProjectGuid>
+    <ProjectGuid>{3BE88EEE-B5E7-C65F-37A0-56FC3F49C514}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>testaddon</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -48,7 +48,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\include\node;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\src;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\config;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\openssl\include;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\uv\include;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\zlib;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\v8\include;C:\Users\BNRI\Desktop\Project\Sample-addon\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\include\node;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\src;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\config;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\openssl\include;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\uv\include;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\zlib;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\v8\include;C:\Users\gurip\Desktop\project\Sample-addon\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
@@ -69,7 +69,7 @@
       <WarningLevel>Level3</WarningLevel>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\BNRI\\AppData\\Local\\node-gyp\\Cache\\10.16.3\\x64\\node.lib&quot;</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\gurip\\AppData\\Local\\node-gyp\\Cache\\10.16.3\\x64\\node.lib&quot;</AdditionalDependencies>
       <AdditionalOptions>/ignore:4199 %(AdditionalOptions)</AdditionalOptions>
       <AllowIsolation>true</AllowIsolation>
       <DataExecutionPrevention>true</DataExecutionPrevention>
@@ -84,13 +84,13 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\include\node;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\src;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\config;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\openssl\include;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\uv\include;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\zlib;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\v8\include;C:\Users\BNRI\Desktop\Project\Sample-addon\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\include\node;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\src;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\config;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\openssl\include;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\uv\include;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\zlib;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\v8\include;C:\Users\gurip\Desktop\project\Sample-addon\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=testaddon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\include\node;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\src;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\config;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\openssl\include;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\uv\include;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\zlib;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\v8\include;C:\Users\BNRI\Desktop\Project\Sample-addon\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\include\node;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\src;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\config;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\openssl\include;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\uv\include;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\zlib;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\v8\include;C:\Users\gurip\Desktop\project\Sample-addon\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <CompileAsWinRT>false</CompileAsWinRT>
@@ -118,7 +118,7 @@
       <AdditionalOptions>/LTCG:INCREMENTAL %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\BNRI\\AppData\\Local\\node-gyp\\Cache\\10.16.3\\x64\\node.lib&quot;</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\gurip\\AppData\\Local\\node-gyp\\Cache\\10.16.3\\x64\\node.lib&quot;</AdditionalDependencies>
       <AdditionalOptions>/ignore:4199 /LTCG:INCREMENTAL %(AdditionalOptions)</AdditionalOptions>
       <AllowIsolation>true</AllowIsolation>
       <DataExecutionPrevention>true</DataExecutionPrevention>
@@ -135,7 +135,7 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\include\node;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\src;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\config;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\openssl\include;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\uv\include;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\zlib;C:\Users\BNRI\AppData\Local\node-gyp\Cache\10.16.3\deps\v8\include;C:\Users\BNRI\Desktop\Project\Sample-addon\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\include\node;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\src;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\config;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\openssl\openssl\include;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\uv\include;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\zlib;C:\Users\gurip\AppData\Local\node-gyp\Cache\10.16.3\deps\v8\include;C:\Users\gurip\Desktop\project\Sample-addon\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=testaddon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
@@ -145,11 +145,11 @@
   <ItemGroup>
     <ClCompile Include="..\cppsrc\main.cpp"/>
     <ClCompile Include="..\cppsrc\Samples\functionexample.cpp"/>
-    <ClCompile Include="C:\Users\BNRI\AppData\Roaming\nvm\v10.16.3\node_modules\node-gyp\src\win_delay_load_hook.cc"/>
+    <ClCompile Include="C:\Users\gurip\AppData\Roaming\nvm\v10.16.3\node_modules\node-gyp\src\win_delay_load_hook.cc"/>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\node_modules\node-addon-api\src\nothing.vcxproj">
-      <Project>{36DAC71F-856C-40B4-3ED7-17F531DAB803}</Project>
+      <Project>{2A003A1C-C720-139D-2EFC-46C8DCDF170C}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
